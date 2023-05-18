@@ -1,3 +1,4 @@
+import com.codewithmosh.builder.BuilderDemo;
 import com.codewithmosh.observer.ObserverDemo;
 import com.codewithmosh.singleton.SingletonDemo;
 import com.codewithmosh.strategy.StrategyDemo;
@@ -14,7 +15,11 @@ public class Main {
 //        observerDemo.execute();
 
         // Singleton Demo
-        SingletonDemo singletonDemo = new SingletonDemo();
-        singletonDemo.execute();
+//        SingletonDemo singletonDemo = new SingletonDemo();
+//        singletonDemo.execute();
+
+        // Builder Demo
+        BuilderDemo builderDemo = new BuilderDemo();
+        builderDemo.execute();
     }
 }
