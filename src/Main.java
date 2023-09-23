@@ -1,3 +1,4 @@
+import com.codewithmosh.adapter.AdapterDemo;
 import com.codewithmosh.builder.BuilderDemo;
 import com.codewithmosh.decorator.DecoratorDemo;
 import com.codewithmosh.observer.ObserverDemo;
@@ -24,7 +25,11 @@ public class Main {
 //        builderDemo.execute();
 
         // Decorator Demo
-        DecoratorDemo decoratorDemo = new DecoratorDemo();
-        decoratorDemo.execute();
+//        DecoratorDemo decoratorDemo = new DecoratorDemo();
+//        decoratorDemo.execute();
+
+        // Adapter Demo
+        AdapterDemo adapterDemo = new AdapterDemo();
+        adapterDemo.execute();
     }
 }
