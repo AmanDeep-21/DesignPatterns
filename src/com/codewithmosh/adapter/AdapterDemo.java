@@ -23,7 +23,7 @@ public class AdapterDemo {
 
         /**
          *  This is when we use inheritance instead of composition,
-         *  this is not favoured over inheritance
+         *  this is not favoured generally
          */
         imageView.apply(new CaramelAdapter());
     }
