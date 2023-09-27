@@ -1,5 +1,6 @@
 import com.codewithmosh.adapter.AdapterDemo;
 import com.codewithmosh.builder.BuilderDemo;
+import com.codewithmosh.command.CommandDemo;
 import com.codewithmosh.decorator.DecoratorDemo;
 import com.codewithmosh.factorymethod.FactoryMethodDemo;
 import com.codewithmosh.observer.ObserverDemo;
@@ -34,7 +35,11 @@ public class Main {
 //        adapterDemo.execute();
 
         // Factory Method Demo
-        FactoryMethodDemo factoryMethodDemo = new FactoryMethodDemo();
-        factoryMethodDemo.execute();
+//        FactoryMethodDemo factoryMethodDemo = new FactoryMethodDemo();
+//        factoryMethodDemo.execute();
+
+        // Command Demo
+        CommandDemo commandDemo = new CommandDemo();
+        commandDemo.execute();
     }
 }
